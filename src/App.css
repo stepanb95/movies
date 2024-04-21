@@ -1,31 +1,66 @@
-.App {
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: #333;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.search-form {
+  margin-bottom: 20px;
+}
+
+.search-form input[type="text"] {
+  width: 500px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
   color: white;
+  border: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.search-form button:hover {
+  background-color: #0056b3;
 }
 
-.heart {
-  color: #ff0000;
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.small {
-  font-size: 0.75rem;
+.movie {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px; 
+}
+
+.movie h2 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.movie p {
+  color: #666;
+  margin: 0;
 }
